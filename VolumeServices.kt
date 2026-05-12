@@ -45,7 +45,7 @@ class VolumeService : Service() {
     private val cccdUuid =
         UUID.fromString("00002902-0000-1000-8000-00805f9b34fb")
 
-    private val deviceAddress = "F8:51:C9:40:E5:C5"
+    private val deviceAddress = "xx:xx:xx:xx:xx:xx" //your mac here
 
     override fun onCreate() {
         super.onCreate()
